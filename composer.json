@@ -1,0 +1,17 @@
+{
+    "name": "unitix/letegrambot",
+    "description": "Telegram bot for unitix project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "google/apiclient": "^2.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "Unitix\\": "src/"
+        },
+        "files": [
+            "configs/config.php"
+        ]
+    }
+}
